@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/sth.dsl.feature_1.0.0.202609201008.jar" id="sth.dsl.feature" version="1.0.0.202609201008">
+      <category name="sth"/>
+   </feature>
+   <category-def name="sth" label="STH">
+      <description>
+         Skupina tanečného humoru
+      </description>
+   </category-def>
+</site>
