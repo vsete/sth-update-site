@@ -1,0 +1,6 @@
+Postup nasadenia update site:
+
+1) vymaž adresára features, plugins a súbory artifacts.jar a content.jar 
+2) komitni zmeny do repozitára
+3) otvor site.xml, rozklikni kategóriu a vyber sth feature, klikni na button Build All
+4) všetky horeuvedené artefakty, spolu so site.xml komitni do repozitára
