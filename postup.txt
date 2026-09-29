@@ -3,4 +3,13 @@ Postup nasadenia update site:
 1) vymaž adresára features, plugins a súbory artifacts.jar a content.jar 
 2) komitni zmeny do repozitára
 3) otvor site.xml, rozklikni kategóriu a vyber sth feature, klikni na button Build All
-4) všetky horeuvedené artefakty, spolu so site.xml komitni do repozitára
+4) mali by sa vytvoriť adresáre features, plugins a súbory artifacts.jar a content.jar
+5) všetky horeuvedené artefakty, spolu so site.xml komitni do repozitára
+
+krok 3 alternatíva
+Niekedy sa mi pri vybuildovaní stalo, že nová feature resp. feature s novou verziou
+nebola uvedená pod kategóriou. Prejavovalo sa to tak, že update site akoby neponúkala nič,
+ale to len preto, lebo update dialóg mal zaškrtnuté Group Features By Category.
+Po odškrtnutí tohto checkboxu sa "zrazu feature objavila". Preto mi ako lepší workflow pripadá,
+starú feature spod kategórie úplne vymazať (pravý klik Remove), kategóriu selektnúť a kliknúť na Add Feature
+a vybrať sth.dsl 1.0.0.qualifier feature. Tento postup ma zatiaľ nikdy nesklamal. 
