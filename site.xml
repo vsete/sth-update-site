@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/sth.dsl.feature_1.0.0.202611011058.jar" id="sth.dsl.feature" version="1.0.0.202611011058">
+   <feature url="features/sth.dsl.feature_1.0.0.202611050534.jar" id="sth.dsl.feature" version="1.0.0.202611050534">
       <category name="sth"/>
    </feature>
    <category-def name="sth" label="STH">
